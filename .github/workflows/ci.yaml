@@ -1,7 +1,7 @@
-on:
-  push:
-  pull_request:
-    types: [opened, synchronize]
+on: workflow_dispatch
+  #push:
+  #pull_request:
+    #types: [opened, synchronize]
 jobs:
   build:
     runs-on: ubuntu-latest
